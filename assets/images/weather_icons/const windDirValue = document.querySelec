@@ -1,0 +1,7 @@
+const windDirValue = document.querySelector('.wind-dir-value');
+const windArrow = document.querySelector('.wind-arrow');
+
+// Jab aap weather data set karte hain:
+const windDeg = weatherData.wind.deg; // degree value from API
+windDirValue.textContent = windDeg + '°';
+windArrow.style.transform = `rotate(${windDeg}deg)`;

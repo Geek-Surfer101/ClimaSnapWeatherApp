@@ -1,0 +1,7 @@
+<div class="detail-item wind-direction">
+    <img src="assets/images/direction.png" class="wind-arrow" alt="Wind Direction" style="width:28px; height:28px; margin-right:12px; transition: transform 0.4s;">
+    <div>
+        <div class="detail-label">Wind Direction</div>
+        <div class="detail-value wind-dir-value"></div>
+    </div>
+</div>
